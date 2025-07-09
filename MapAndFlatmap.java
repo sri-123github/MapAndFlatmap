@@ -26,7 +26,7 @@ public class MapAndFlatmap {
 Set<String> li=	employees.stream().flatMap(x->x.getPreviouscompanies().stream()).collect(Collectors.toSet());
 		System.out.println(li);
 		
-		
+		System.out.println("code after changes");
 	}
 	
 	
